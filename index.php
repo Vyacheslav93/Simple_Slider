@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<script src="index_js.js"></script>
+	</head>
+	<style type="text/css">  
+		 body { 
+				display: block; width: 33%; height: auto; margin: 0 auto;
+				h2: text-align: center;
+		 }  
+		 h2   {
+				 margin-left: auto;
+				 margin-right: auto;
+				 width: 6em
+		 }
+	</style>
+	<script>
+		$(document).ready(function(){
+			$("div.slides").imageSlider(
+			[
+			'http://newshop.kupikupi.org/alboms/3/195/00002.jpeg',
+			'http://newshop.kupikupi.org/alboms/3/193/00006.jpeg', 
+			'http://newshop.kupikupi.org/alboms/3/140/60-375.jpeg'
+			]
+			);
+		});
+	</script>
+	<body>
+		<h2>Slider</h2>
+		
+		<div class="slides">
+			<img src="http://newshop.kupikupi.org/alboms/3/195/00002.jpeg">  
+		</div> 
+	</body>
+</html>
