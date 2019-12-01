@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-		<script src="index_js.js"></script>
+		<script src="index.js"></script>
 	</head>
 	<style type="text/css">  
 		 body { 
